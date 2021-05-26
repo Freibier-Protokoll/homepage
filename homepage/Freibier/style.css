@@ -1,0 +1,189 @@
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Lato", sans-serif
+}
+
+*, *:before, *:after {
+    box-sizing: inherit
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden
+}
+
+body {
+    margin: 0
+}
+
+a {
+    color: inherit
+}
+
+.bar, h1, button {
+    font-family: "Montserrat", sans-serif
+}
+
+.background-img {
+    background-image: url("/img/oktoberfest\ bg.jpg")
+}
+
+.background-img2 {
+    background-image: url("/img/oktoberfest\ bgh.jpg")
+}
+
+.margin {
+    margin: 16px
+}
+
+.top, .bottom {
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.opacity {
+    opacity: 0.60
+}
+
+.opacity-off {
+    opacity: 1
+}
+
+/* Farben */
+
+.black, .hover-black:hover {
+    color: #fff;
+    background-color: #000
+}
+
+.text-grey {
+    color: #757575
+}
+
+.text-white {
+    color: white
+}
+
+.white, .hover-white:hover {
+    color: #000;
+    background-color: #fff
+}
+
+.blue {
+    background-color: rgb(77, 141, 214);
+    color: white
+}
+
+/* Nav Bar */
+
+.bar {
+    width: 100%;
+    overflow: hidden
+}
+
+.bar .bar-item {
+    padding: 8px 16px;
+    float: left;
+    width: auto;
+    border: none;
+    display: block;
+    outline: 0
+}
+
+.bar .button {
+    white-space: normal
+}
+
+.button:hover {
+    color: #000;
+    background-color: #ccc
+}
+
+.btn, .button {
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap
+}
+
+/* Paddings */
+
+.padding-32 {
+    padding-top: 32px;
+    padding-bottom: 32px
+}
+
+.padding-64 {
+    padding-top: 64px;
+    padding-bottom: 64px
+}
+
+.padding-80 {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
+.padding-large {
+    padding: 12px 24px
+}
+
+/* Größen */
+
+.large {
+    font-size: 18px
+}
+
+.xlarge {
+    font-size: 24px
+}
+
+.jumbo {
+    font-size: 64px
+}
+
+/* Anordnung */
+
+.right {
+    float: right
+}
+
+.content, .auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.content {
+    max-width: 980px
+}
+
+.center {
+    text-align: center
+}
+
+.container, .panel {
+    padding: 0.01em 16px
+}
+
+#blackRow {
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    background-color: white;
+}
+
+.image {
+    transition: transform 0.7s;
+}
+
+.image:hover {
+    transform: rotate(60deg);
+}

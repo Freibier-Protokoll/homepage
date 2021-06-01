@@ -172,7 +172,7 @@ a {
 }
 
 .content {
-    max-width: 980px
+    max-width: 960px
 }
 
 .center {
@@ -196,4 +196,10 @@ a {
 
 .image:hover {
     transform: rotate(60deg);
+}
+
+.roadmap {
+    background-color: darkmagenta;
+    width: 200px;
+    color: white;
 }

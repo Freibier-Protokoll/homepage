@@ -203,3 +203,11 @@ a {
     width: 200px;
     color: white;
 }
+
+.grid {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-flow: column;
+    padding-left: 200px;
+}

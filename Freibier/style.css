@@ -166,6 +166,10 @@ a {
     float: right
 }
 
+.left {
+    float: left
+}
+
 .content, .auto {
     margin-left: auto;
     margin-right: auto
@@ -199,9 +203,9 @@ a {
 }
 
 .roadmap {
-    background-color: darkmagenta;
-    width: 200px;
+    width: 250px;
     color: white;
+    padding-bottom: 5px;
 }
 
 .grid {
@@ -210,4 +214,12 @@ a {
     grid-template-columns: 25% 25% 25% 25%;
     grid-auto-flow: column;
     padding-left: 200px;
+}
+
+.pink {
+    background-color: darkmagenta;
+}
+
+.orange {
+    background-color: orangered;
 }

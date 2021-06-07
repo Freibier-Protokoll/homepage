@@ -26,11 +26,11 @@ a {
 }
 
 .background-img {
-    background-image: url("/img/oktoberfest\ bg.jpg")
+    background-image: url("/Freibier/img/oktoberfest-bg.jpg")
 }
 
 .background-img2 {
-    background-image: url("/img/oktoberfest\ bgh.jpg")
+    background-image: url("/Freibier/img/oktoberfest-bgh.jpg")
 }
 
 .margin {
@@ -136,6 +136,16 @@ a {
     padding: 12px 24px
 }
 
+.padding-text {
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.padding-top {
+    padding-top: 10px;
+}
+
 /* Größen */
 
 .large {
@@ -156,13 +166,17 @@ a {
     float: right
 }
 
+.left {
+    float: left
+}
+
 .content, .auto {
     margin-left: auto;
     margin-right: auto
 }
 
 .content {
-    max-width: 980px
+    max-width: 960px
 }
 
 .center {
@@ -186,4 +200,26 @@ a {
 
 .image:hover {
     transform: rotate(60deg);
+}
+
+.roadmap {
+    width: 250px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: 200px 1fr;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-auto-flow: column;
+    padding-left: 200px;
+}
+
+.pink {
+    background-color: darkmagenta;
+}
+
+.orange {
+    background-color: orangered;
 }

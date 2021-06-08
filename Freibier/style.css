@@ -223,3 +223,8 @@ a {
 .orange {
     background-color: orangered;
 }
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }

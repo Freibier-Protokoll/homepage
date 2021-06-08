@@ -26,11 +26,11 @@ a {
 }
 
 .background-img {
-    background-image: url("/Freibier/img/oktoberfest-bg.jpg")
+    background-image: url("./img/oktoberfest-bg.jpg")
 }
 
 .background-img2 {
-    background-image: url("/Freibier/img/oktoberfest-bgh.jpg")
+    background-image: url("./img/oktoberfest-bgh.jpg")
 }
 
 .margin {

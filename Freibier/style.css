@@ -5,7 +5,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 50;
 }
 
 *,
@@ -23,16 +24,49 @@ html {
 
 body {
   margin: 0;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 50;
 }
 
 a {
   color: inherit;
 }
 
+.flexContainer {
+  display: flex;
+  flex-direction: row;
+  
+  color: rgba(255, 255, 255, 0.858);
+  width: 80%;
+  margin: auto;
+  height: fit-content;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 21px;
+}
+
+#fc1 {
+  flex-grow: 1;
+  align-self: center;
+}
+
+#fc2 {
+  flex-grow: 3;
+  align-self: center;
+}
+
+#fc3 {
+  flex-grow: 1;
+  align-self: center;
+  padding: 21px;
+  margin-right: 40px;
+}
+
 .bar,
 h1,
 button {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Abril Fatface", cursive;
+  font-weight: 50;
 }
 
 .background-img {
@@ -89,7 +123,7 @@ button {
 }
 
 .blue {
-  background-color: rgb(77, 141, 214);
+  background-color: #42271c;
   color: white;
 }
 

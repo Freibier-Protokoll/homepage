@@ -35,7 +35,7 @@ a {
 .flexContainer {
   display: flex;
   flex-direction: row;
-  
+
   color: rgba(255, 255, 255, 0.858);
   width: 80%;
   margin: auto;
@@ -43,6 +43,17 @@ a {
   justify-content: space-evenly;
   align-items: center;
   font-size: 21px;
+}
+.flexContainer1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
 }
 
 #fc1 {
@@ -60,6 +71,20 @@ a {
   align-self: center;
   padding: 21px;
   margin-right: 40px;
+}
+
+#fc4 {
+  flex-grow: 3;
+
+  position: relative;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+#fc5 {
+  flex-grow: 1;
+  align-content: center;
 }
 
 .bar,
@@ -206,11 +231,11 @@ button {
 }
 
 .xlarge {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .jumbo {
-  font-size: 64px;
+  font-size: 60px;
 }
 
 /* Anordnung */
@@ -282,4 +307,13 @@ button {
 .inactiveLink {
   pointer-events: none;
   cursor: default;
+}
+
+textarea {
+  resize: none;
+  cursor: default;
+  pointer-events: none;
+  background: transparent;
+  border: none;
+  outline: none;
 }

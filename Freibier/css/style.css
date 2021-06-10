@@ -289,7 +289,6 @@ button {
   color: #fff;
   font-size: 60px;
   line-height: 80px;
-  padding-bottom: 25px;
   font-weight: bold;
 }
 
@@ -302,8 +301,8 @@ button {
 
 .text-bg p {
   color: #fff;
-  font-size: 17px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .text-bg a {
@@ -355,7 +354,7 @@ button {
 
 .web_hosting p {
   color: #db8400e5;
-  font-size: 17px;
+  font-size: 1.4rem;
   line-height: 28px;
   padding: 40px 50px;
 }

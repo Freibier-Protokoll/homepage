@@ -98,6 +98,7 @@ button {
   background: url("./img/oktoberfest2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .background-img2 {
@@ -200,8 +201,8 @@ button {
 }
 
 .padding-64 {
-  padding-top: 64px;
-  padding-bottom: 64px;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
 }
 
 .padding-80 {

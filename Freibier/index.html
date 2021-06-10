@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="de" class="blue">
 <title>Freibier</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,8 +17,10 @@
         <div class="bar card middle blue large ">
             <a class="bar-item button hide-medium hide-large right padding-large large "></a>
             <a href="./index.html" class="bar-item button padding-large ">Home</a>
-            <a href="./About.html" class="bar-item button padding-large ">About</a>
+            <a href="./about.html" class="bar-item button padding-large ">About</a>
             <a><button class="bar-item button large ">Download Wallet</button></a>
+            <a href="U.C.C._Freibier.pdf" target="_blank"><button class="bar-item button large ">Anleitung: Freibier in
+                Metamask</button></a>
         </div>
 
         <!--  Navbar on small screens 
@@ -34,14 +36,14 @@
         <div class="container black center opacity">
             <h1 class="margin jumbo opacity-off">Freibier</h1>
         </div>
-        <div class="flexContainer1">
-            <a width="500px" id="fc4" href="about.html" style="pointer-events:none"><img src="./img/Freibier Logo.png"
+        <div class="flexContainer1" style="font-size: 100%;">
+            <a id="fc4" href="about.html" style="pointer-events:none; width: auto-content;"><img src="./img/Freibier Logo.png"
                     width="24%" alt="Logo" class="image">
                 </img></a>
             <div id="fc5" class="flexCol" style="float: right;">
                 <textarea id="countdown"
-                    style="font-size: 100%;font-family: Abril Fatface, cursive;color:whitesmoke"></textarea>
-                <a style="color: white; width: min-content;font-size: 100%;"
+                    style="font-size: 1.5rem;font-family: Abril Fatface, cursive;color:whitesmoke"></textarea>
+                <a id="live"style="color: white; width: min-content; font-size: 1.5rem; align-self:flex-start;"
                     href="https://www.youtube.com/channel/UC2-aXGhjHTioQ2923V1jDVg">Live mit
                     cryptobeard</a>
                 <script>
@@ -71,6 +73,7 @@
                         if (distance < 0) {
                             clearInterval(x);
                             document.getElementById("countdown").innerHTML = "Freibier ist live!";
+                            document.getElementById("live").innerHTML = ""
                         }
                     }, 1000);
                 </script>
@@ -82,9 +85,9 @@
 
 
     <footer class = "blue">
-        <div class="container center padding-64">
+        <div class="center">
             <h1 class="margin jumbo">Bald Mahlzeit!</h1>
-            <p class="container padding-64 center opacity margin">&copy Zum Impressum hier klicken: <a
+            <p class="center opacity margin">&copy Zum Impressum hier klicken: <a
                     href="https://daubit.org/impressum.html" target="_blank">Impressum </a>
             </p>
         </div>

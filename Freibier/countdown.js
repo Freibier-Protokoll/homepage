@@ -1,6 +1,8 @@
 // Set the date we're counting down to
 var countDownDate = new Date("June 18, 2021 20:00:00").getTime();
 
+var till = new Date("June 18, 2021 21:00:00").getTime();
+
 // Update the count down every 1 second
 var x = setInterval(function () {
   // Get today's date and time
@@ -29,9 +31,9 @@ var x = setInterval(function () {
     "live!";
 
   // If the count down is finished, write some text
-  if (distance < 0) {
+  if (till - now < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "Freibier ist live!";
-    document.getElementById("live").innerHTML = "";
+    document.getElementById("live").style.visibility = "hidden";
   }
 }, 1000);

@@ -229,31 +229,6 @@ button {
 
 /**-- heading section --**/
 
-/*---------------------------- preloader area ----------------------------*/
-
-.loader_bg {
-  position: fixed;
-  z-index: 9999999;
-  background: #fff;
-  width: 100%;
-  height: 100%;
-}
-
-.loader {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.loader img {
-  width: 280px;
-}
-
 /*-- navigation--*/
 
 .navigation.navbar {
@@ -284,19 +259,27 @@ button {
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
-
+/* .top {
+  background-image: url("../images/oktoberfest2.jpg");
+  background-size: cover;
+} */
 .header {
-  background: #0c0f38;
+  background: #db8400e5;
   width: 100%;
   padding: 40px 40px 40px 40px;
 }
 
-.logo {
-  width: fit-content;
+.logo a {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 40px;
 }
 
 .banner_main {
-  background: #0c0f38;
+  /* background: rgb(206, 153, 55); */
+  background: #db8400e5;
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-bottom: 90px;
@@ -311,7 +294,7 @@ button {
 }
 
 .text-bg span {
-  color: #fdd430;
+  color: #db8400e5;
   font-size: 40px;
   line-height: 35px;
   font-weight: bold;
@@ -321,24 +304,18 @@ button {
   color: #fff;
   font-size: 17px;
   line-height: 28px;
-  padding: 40px 0;
 }
 
 .text-bg a {
   font-size: 16px;
-  background-color: #fff;
-  color: #000;
-  padding: 10px 0px;
+  background-color: none;
+  color: #fff;
   width: 100%;
   max-width: 190px;
-  text-align: center;
-  display: inline-block;
-  text-transform: uppercase;
 }
 
 .text-bg a:hover {
-  background-color: #000;
-  color: #fff;
+  color: #000;
 }
 
 .text-img figure {
@@ -346,7 +323,7 @@ button {
 }
 
 .text-img figure img {
-  width: 30%;
+  width: 85%;
 }
 
 .titlepage {
@@ -356,7 +333,7 @@ button {
 
 .titlepage h2 {
   font-size: 45px;
-  color: #0c0f38;
+  color: #db8400e5;
   line-height: 40px;
   font-weight: bold;
   padding: 0;
@@ -377,7 +354,7 @@ button {
 }
 
 .web_hosting p {
-  color: #0c0f38;
+  color: #db8400e5;
   font-size: 17px;
   line-height: 28px;
   padding: 40px 50px;
@@ -398,247 +375,21 @@ button {
 }
 
 .web_hosting a:hover {
-  background-color: #0c0f38;
+  background-color: #db8400e5;
   color: #fff;
 }
 
 /** end Hosting section **/
 
-/** Services section **/
-
-.Services {
-  margin-top: 90px;
-  padding: 60px 0;
-  background: #0c0f38;
-  font-family: Poppins;
-}
-
-.Services .titlepage {
-  text-align: center;
-}
-
-.Services .titlepage h2 {
-  color: #fff;
-  padding-bottom: 20px;
-}
-
-.Services .titlepage p {
-  color: #fff;
-}
-
-.Services .Services-box i {
-  background: #fff;
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
-  display: inline-block;
-  padding-top: 19px;
-}
-
-.Services .Services-box i:hover {
-  background: #ddd;
-}
-
-.Services .Services-box h3 {
-  padding: 20px 0px 20px 0px;
-  font-size: 20px;
-  line-height: 25px;
-  color: #fff;
-  display: block;
-  font-weight: 500;
-}
-
-.Services .Services-box {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 20px;
-  border: #cecfd7 solid 2px;
-  padding: 40px;
-  transition: ease-in all 0.5s;
-  margin-bottom: 30px;
-}
-
-.Services .Services-box:hover {
-  background: #8308eb;
-  transition: ease-in all 0.5s;
-  cursor: pointer;
-}
-
-.Services .Services-box p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #fff;
-}
-
-.read_more {
-  font-size: 16px;
-  background-color: #fff;
-  color: #000;
-  padding: 10px 0px;
-  width: 100%;
-  max-width: 190px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.read_more:hover {
-  background: #8308eb;
-  color: #fff;
-}
-
-/** end Services section **/
-
-/** why section **/
-
-.why {
-  margin-top: 90px;
-  background: #ffff;
-  font-family: Poppins;
-}
-
-.why .titlepage {
-  text-align: center;
-}
-
-.why .titlepage h2 {
-  padding-bottom: 20px;
-}
-
-.why .titlepage p {
-  color: #090808;
-}
-
-.why .why-box h3 {
-  padding: 20px 0px 20px 0px;
-  font-size: 20px;
-  line-height: 25px;
-  color: #090808;
-  display: block;
-  font-weight: 500;
-}
-
-.why .why-box {
-  text-align: center;
-  background-color: transparent;
-  border-radius: 20px;
-  padding: 40px 20px 20px 20px;
-  transition: ease-in all 0.5s;
-  margin-bottom: 30px;
-  box-shadow: #ddd 0px 0px 10px;
-}
-
-.why .why-box p {
-  font-size: 16px;
-  line-height: 24px;
-  color: #090808;
-}
-
-.why .why-box:hover {
-  transition: ease-in all 0.1s;
-  transform: scale(1.1);
-}
-
-.bg {
-  font-size: 16px;
-  background-color: #090808;
-  color: #fff;
-  padding: 10px 0px;
-  width: 100%;
-  max-width: 190px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto;
-  margin-top: 20px;
-}
-
-.bg:hover {
-  background: #8308eb;
-  color: #fff;
-}
-
-/** end why section **/
-
-/** contact section **/
-
-.contact {
-  padding-top: 90px;
-  font-family: Poppins;
-}
-
-.main_form {
-  background: #0c0f38;
-  padding: 55px 55px;
-  border-radius: 30px;
-  margin-bottom: -58%;
-}
-
-.contact .main_form .contactus {
-  border: #fff solid 1px;
-  padding: 0px 19px;
-  margin-bottom: 20px;
-  border-radius: 15px;
-  width: 100%;
-  height: 52px;
-  background: #fff;
-  color: #999999;
-  font-size: 16px;
-}
-
-.contact .main_form .textarea {
-  margin-bottom: 25px;
-  padding: 0px 19px;
-  color: #999999 !important;
-  width: 100%;
-  border: #fff solid 1px;
-  border-radius: 15px;
-  padding-top: 38px;
-  background: #fff;
-}
-
-.contact .main_form .send {
-  font-size: 16px;
-  transition: ease-in all 0.5s;
-  background-color: #fff;
-  color: #ef4259;
-  padding: 12px 70px;
-  margin: 0 auto;
-  display: block;
-  border-radius: 30px;
-}
-
-.contact .main_form .send:hover {
-  background-color: #8308eb;
-  transition: ease-in all 0.5s;
-  color: #fff;
-}
-
-#contact *::placeholder {
-  color: #999999;
-  opacity: 1;
-}
-
-.current {
-  color: #fff;
-  margin-top: -4px;
-  position: absolute;
-}
-
-/** end contact section **/
-
 /** footer **/
 
 .footer {
   font-family: Poppins;
-  background: #0c0f38;
+  background: #db8400e5;
 }
 
 .cont {
   text-align: center;
-  margin-top: 5%;
 }
 
 .cont h3 {
@@ -646,6 +397,7 @@ button {
   font-size: 45px;
   line-height: 30px;
   font-weight: bold;
+  text-align: center;
   padding: 30px 0px 0px 0px;
 }
 
@@ -666,24 +418,19 @@ button {
   padding-bottom: 60px;
 }
 
-.copyright {
-  padding: 20px 0px;
-  background: #fff;
-}
-
-.copyright p {
-  color: #1e1e1e;
-  font-size: 18px;
-  line-height: 22px;
+.cont td {
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
   text-align: center;
+  /* line-height: 100%; */
+  /* padding: 0 40%; */
+  padding: 30px 0px 0px 0px;
 }
 
-.copyright a {
-  color: #1e1e1e;
-}
-
-.copyright a:hover {
-  color: #0c0f38;
+.cont table {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /** end footer **/

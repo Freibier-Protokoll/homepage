@@ -259,12 +259,12 @@ button {
 /*--------------------------------------------------------------------- top banner area ---------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
-/* .top {
-  background-image: url("../images/oktoberfest2.jpg");
+.top {
+  background-image: url("../images/oktoberfest2_crop2.jpg");
   background-size: cover;
-} */
+}
 .header {
-  background: #db8400e5;
+  /* background: #db8400e5; */
   width: 100%;
   padding: 40px 40px 40px 40px;
 }
@@ -279,7 +279,7 @@ button {
 
 .banner_main {
   /* background: rgb(206, 153, 55); */
-  background: #db8400e5;
+  /* background: #db8400e5; */
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-bottom: 90px;

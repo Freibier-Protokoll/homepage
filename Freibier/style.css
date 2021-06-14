@@ -393,7 +393,7 @@ button {
 }
 
 .cont h3 {
-  color: #fff;
+  color: saddlebrown;
   font-size: 45px;
   line-height: 30px;
   font-weight: bold;
@@ -402,7 +402,7 @@ button {
 }
 
 .cont span {
-  color: #fff;
+  color: saddlebrown;
   font-size: 30px;
   line-height: 30px;
   padding: 30px 0px 30px 0px;
@@ -411,7 +411,7 @@ button {
 }
 
 .cont p {
-  color: #fff;
+  color: saddlebrown;
   font-size: 17px;
   line-height: 30px;
   padding: 0 130px;
@@ -419,14 +419,15 @@ button {
 }
 
 .cont a {
-  color: #2a00c4;
+  color: #fff;
+  /* color: #fad68d; */
 }
 .cont a:hover {
-  color: #fdd430;
+  color: #e0bc2b;
 }
 
 .cont td {
-  color: #fff;
+  color: saddlebrown;
   font-weight: bold;
   font-size: 17px;
   text-align: center;

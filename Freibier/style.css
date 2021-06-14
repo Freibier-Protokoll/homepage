@@ -361,22 +361,12 @@ button {
 }
 
 .web_hosting a {
-  font-size: 16px;
-  background-color: #000;
-  color: #fff;
-  padding: 10px 0px;
-  width: 100%;
-  max-width: 190px;
-  text-align: center;
-  display: inline-block;
-  text-transform: uppercase;
-  font-weight: 400;
-  margin-top: 10px;
+  color: #db8400e5;
+  font-weight: bold;
 }
 
 .web_hosting a:hover {
-  background-color: #db8400e5;
-  color: #fff;
+  color: #e0bc2b;
 }
 
 /** end Hosting section **/
@@ -394,8 +384,7 @@ button {
 
 .cont h3 {
   color: saddlebrown;
-  font-size: 45px;
-  line-height: 30px;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
   padding: 30px 0px 0px 0px;

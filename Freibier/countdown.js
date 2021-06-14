@@ -19,8 +19,6 @@ var x = setInterval(function () {
 
   // Display the result in the element with id="demo"
   document.getElementById("countdown").innerHTML =
-    document.getElementById("countdown").innerHTML +
-    "\n" +
     "Live in \n" +
     days +
     "d " +

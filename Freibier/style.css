@@ -301,8 +301,6 @@ button {
 
 .text-bg p {
   color: rgb(0, 0, 0);
-  border-style: solid;
-  border-color: #000;
   font-size: 2rem;
   line-height: 2rem;
 }
@@ -310,13 +308,13 @@ button {
 .text-bg a {
   font-size: 16px;
   background-color: none;
-  color: rgb(0, 0, 0);
+  color: #6dc5ff;
   width: 100%;
   max-width: 190px;
 }
 
 .text-bg a:hover {
-  color: #fff;
+  color: #fdd430;
 }
 
 .text-img figure {
@@ -421,7 +419,7 @@ button {
 }
 
 .cont a {
-  color: #fff;
+  color: #2a00c4;
 }
 .cont a:hover {
   color: #fdd430;
@@ -444,6 +442,9 @@ button {
 
 #info {
   background-color: rgba(205, 92, 92, 0.288);
+  color: #fff;
+  padding: 0.7rem;
+  border-style: solid;
   border-color: #000;
 }
 

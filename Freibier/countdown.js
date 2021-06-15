@@ -38,7 +38,7 @@ var x = setInterval(function () {
   }
 }, 1000);
 
-function myFunction() {
+function copyAddress() {
   /* Copy the text inside the text field */
   document.execCommand(
     "copy",

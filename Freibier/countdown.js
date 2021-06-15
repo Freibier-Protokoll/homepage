@@ -37,3 +37,15 @@ var x = setInterval(function () {
     document.getElementById("live").style.visibility = "hidden";
   }
 }, 1000);
+
+function myFunction() {
+  /* Copy the text inside the text field */
+  document.execCommand(
+    "copy",
+    true,
+    "0x26046abedf7117af40ca645350eb857d170bf71f"
+  );
+
+  /* Alert the copied text */
+  alert("Freibier Token Adresse kopiert! " + "0x26046abedf7117af40ca645350eb857d170bf71f");
+}

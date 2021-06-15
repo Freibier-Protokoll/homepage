@@ -39,12 +39,7 @@ var x = setInterval(function () {
 }, 1000);
 
 function copyAddress() {
-  /* Copy the text inside the text field */
-  document.execCommand(
-    "copy",
-    true,
-    "0x26046abedf7117af40ca645350eb857d170bf71f"
-  );
+  navigator.clipboard.writeText("0x26046abedf7117af40ca645350eb857d170bf71f");
 
   /* Alert the copied text */
   alert(

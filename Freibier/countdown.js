@@ -47,5 +47,8 @@ function copyAddress() {
   );
 
   /* Alert the copied text */
-  alert("Freibier Token Adresse kopiert! " + "0x26046abedf7117af40ca645350eb857d170bf71f");
+  alert(
+    "Freibier Token Adresse kopiert! " +
+      "0x26046abedf7117af40ca645350eb857d170bf71f"
+  );
 }

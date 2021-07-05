@@ -34,7 +34,7 @@ var x = setInterval(function () {
   if (till - now < 0) {
     clearInterval(x);
     document.getElementById("countdown").innerHTML = "Freibier ist live!";
-    document.getElementById("live").style.visibility = "hidden";
+    document.getElementById("info").style.visibility = "hidden";
   }
 }, 1000);
 
